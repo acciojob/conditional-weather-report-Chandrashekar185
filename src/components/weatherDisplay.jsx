@@ -1,3 +1,4 @@
+import React from "react";
 const WeatherDisplay=({weather})=>{
     const {temperature,condition}=weather;
     const tempStyle={color: temperature > 20 ? 'red':'blue'}
