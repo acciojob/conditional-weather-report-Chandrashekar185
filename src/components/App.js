@@ -4,7 +4,7 @@ import './../styles/App.css';
 
 const App = () => {
   const [weather]=useState({temperature: 25,
-                           condition:"sunny",});
+                           condition:"Sunny",});
   return (
     <div>
     <WeatherDisplay weather={weather}/>
