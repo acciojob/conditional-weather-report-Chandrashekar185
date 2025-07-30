@@ -1,5 +1,5 @@
-
-import React from "react";
+import WeatherDisplay from "weatherDisplay.jsx"
+import {useState} from "react";
 import './../styles/App.css';
 
 const App = () => {
